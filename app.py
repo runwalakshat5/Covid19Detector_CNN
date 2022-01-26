@@ -8,7 +8,6 @@ from sklearn.preprocessing import StandardScaler
 from flask import Flask, render_template, request
 from werkzeug.utils import secure_filename
 import os
-from PIL import Image as PImage
 
 app = Flask(__name__)
 model = load_model('model_CNN.h5')
