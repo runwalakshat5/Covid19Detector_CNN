@@ -61,7 +61,6 @@ pyasn1-modules==0.2.8
 PyDispatcher==2.0.5
 PyMySQL==1.0.2
 pyOpenSSL==20.0.1
-pywin32==227
 pywinpty==0.5.7
 pyzmq==20.0.0
 QtPy==1.9.0
