@@ -15,7 +15,6 @@ def Home():
     return render_template('index1.html')
 
 
-standard_to = StandardScaler()
 @app.route("/predict", methods=['POST'])
 def predict():
     if request.method == 'POST':
