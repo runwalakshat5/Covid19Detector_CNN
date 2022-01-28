@@ -18,9 +18,9 @@
         <form action="{{ url_for('predict')}}" method="post" enctype="multipart/form-data">
             <br>
            <br><br><br>
-            <input id="second" name="name" required="required" placeholder="Enter patient's name" style="color: #4d089a;font-family: 'Pacifico', cursive; background-color:white; text-align: center; width:25%;">
+            <input id="second" name="name" required="required" placeholder="Enter patient's name" style="color: #4d089a;font-family: 'Pacifico', cursive; background-color:white; text-align: center;">
               <br><br>
-            <input type="file" accept="image/*" name="image" id="second"  onchange="loadFile(event)" required="required" style="color: #0bebf6;font-family: 'Pacifico', cursive; background-color:white;width:25%; text-align: center; border-color: #4d089a">
+            <input type="file" accept="image/*" name="image" id="second"  onchange="loadFile(event)" required="required" style="color: #0bebf6;font-family: 'Pacifico', cursive; background-color:white;text-align: center; border-color: #4d089a">
             <br><br>
             <p><img id="output" width="200"/></p>
 
