@@ -4,3 +4,5 @@ Developed a Convolutional Neural Network with the help of keras library for diag
 The dataset can be found on - 
 1. https://github.com/ieee8023/covid-chestxray-dataset (for COVID +ve samples)
 2. https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia (for Normal samples)
+3. 
+ The project is depled on - https://covid19-detector.herokuapp.com/
